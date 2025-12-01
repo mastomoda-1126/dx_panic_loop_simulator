@@ -17,3 +17,14 @@ The goal is to visualize **bad DX patterns**:
 - Paper as the final fallback for everything
 
 Run the simulation and watch the panic loop.
+
+## What this code is actually saying
+
+If your DX project has:
+
+- no data model,
+- no clear ownership,
+- no roadmap,
+- and no one willing to say "stop",
+
+then you are probably already running `run_infinite()` in real life.
